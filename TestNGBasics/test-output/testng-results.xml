@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21931" started-at="2017-01-25T16:06:00Z" finished-at="2017-01-25T16:06:22Z">
+    <groups>
+    </groups>
+    <test name="FireFoxTest" duration-ms="9386" started-at="2017-01-25T16:06:00Z" finished-at="2017-01-25T16:06:10Z">
+      <class name="crossBrowserTesting.CBT">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTesting.CBT@63d4e2ba]" name="openBrowser" is-config="true" duration-ms="9334" started-at="2017-01-25T11:06:00Z" finished-at="2017-01-25T11:06:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:crossBrowserTesting.CBT@63d4e2ba]" name="testTitle" duration-ms="24" started-at="2017-01-25T11:06:10Z" finished-at="2017-01-25T11:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTesting.CBT@63d4e2ba]" name="closeBrowser" is-config="true" duration-ms="16" started-at="2017-01-25T11:06:10Z" finished-at="2017-01-25T11:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crossBrowserTesting.CBT -->
+    </test> <!-- FireFoxTest -->
+    <test name="ChromeTest" duration-ms="8531" started-at="2017-01-25T16:06:10Z" finished-at="2017-01-25T16:06:18Z">
+      <class name="crossBrowserTesting.CBT">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTesting.CBT@725bef66]" name="openBrowser" is-config="true" duration-ms="8332" started-at="2017-01-25T11:06:10Z" finished-at="2017-01-25T11:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:crossBrowserTesting.CBT@725bef66]" name="testTitle" duration-ms="11" started-at="2017-01-25T11:06:18Z" finished-at="2017-01-25T11:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTesting.CBT@725bef66]" name="closeBrowser" is-config="true" duration-ms="188" started-at="2017-01-25T11:06:18Z" finished-at="2017-01-25T11:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crossBrowserTesting.CBT -->
+    </test> <!-- ChromeTest -->
+    <test name="InternetExplorerTest" duration-ms="3985" started-at="2017-01-25T16:06:18Z" finished-at="2017-01-25T16:06:22Z">
+      <class name="crossBrowserTesting.CBT">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowserTesting.CBT@6adca536]" name="openBrowser" is-config="true" duration-ms="3933" started-at="2017-01-25T11:06:18Z" finished-at="2017-01-25T11:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:crossBrowserTesting.CBT@6adca536]" name="testTitle" duration-ms="17" started-at="2017-01-25T11:06:22Z" finished-at="2017-01-25T11:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTesting.CBT@6adca536]" name="closeBrowser" is-config="true" duration-ms="18" started-at="2017-01-25T11:06:22Z" finished-at="2017-01-25T11:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crossBrowserTesting.CBT -->
+    </test> <!-- InternetExplorerTest -->
+  </suite> <!-- Suite -->
+</testng-results>
